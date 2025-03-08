@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MediaCluster.CacheSystem\MediaCluster.CacheSystem.csproj" />
+      <ProjectReference Include="..\MediaCluster.Common\MediaCluster.Common.csproj" />
+      <ProjectReference Include="..\MediaCluster.MediaAnalyzer\MediaCluster.MediaAnalyzer.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="morelinq" Version="4.4.0" />
+    </ItemGroup>
+
+</Project>
