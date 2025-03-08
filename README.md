@@ -4,6 +4,8 @@ MediaCluster is a integrated solution that bridges RealDebrid with Sonarr/Radarr
 
 Note that this is a work-in-progress. A large roadblock right now is that WinFSP does not support hard links/symbolic links.
 
+This solution specifically targets the Windows platform and Real-Debrid currently, but expanding it to other providers and platforms is very possible.
+
 ## Features
 
 - **QBittorrent API Emulation**: Provides a QBittorrent-compatible API that Sonarr and Radarr can connect to.
