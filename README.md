@@ -4,7 +4,9 @@ MediaCluster is a integrated solution that bridges RealDebrid with Sonarr/Radarr
 
 Note that this is a work-in-progress. Only really important missing feature I need to add is symlink support (for Radarr and Sonarr.)
 
-This solution specifically targets the Windows platform and Real-Debrid currently, but expanding it to other providers and platforms is very possible.
+This solution specifically targets Windows and Real-Debrid currently, but expanding it to other providers and platforms is very possible.
+
+This is not finished and may never be, at least until WinFSP adds support for hard links. (Alternatively, I will fork radarr/sonarr.)
 
 ## Features
 
@@ -15,8 +17,6 @@ This solution specifically targets the Windows platform and Real-Debrid currentl
 - **Efficient File Access**: Implements on-demand file access with caching to minimize bandwidth usage.
 
 ## Architecture
-
-MediaCluster consists of several modular components:
 
 1. **Core**: Shared models, interfaces, and event system
 2. **RealDebrid**: Client for interacting with the RealDebrid API
